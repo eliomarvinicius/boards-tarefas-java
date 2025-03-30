@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/board_tasks
+    username: root
+    password: senha
+jpa:
+    hibernate:
+      ddl-auto: update
